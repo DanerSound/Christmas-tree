@@ -1,6 +1,8 @@
-# MerryXmas-Mips
+# Christmas-tree
 
-The main purpose of this repo was to recall the main concepts of assembly mips.
+The purpose of this repo is to make in every possible programming language a simple tree using an " * " simbol and a simple text.
+
+Just because i start the first version of this repo on Christmas seasen i use the text "Buon Natale"
 
 Some snippets of code you can find them in this repo [mips from scratch](https://github.com/DanerSound/MIPS-from-scratch).
 
