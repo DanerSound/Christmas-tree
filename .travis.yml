@@ -10,8 +10,8 @@ python:
   - "nightly"  # nightly build
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install -r Python_Version/requirements.txt
 # command to run tests
 script:
-  - pytest
+  - Python_Version/pygreetings.py
 
