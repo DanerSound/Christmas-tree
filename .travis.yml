@@ -11,17 +11,18 @@ matrix:
                   - "3.8-dev"
                   - "nightly"
          os: 
-                  - osx
                   - linux
          install:
                   - pip install -r  Python_Version/requirements.txt
               # command to run tests
          before_script:
+                  - echo "before"
                   - cd Python_Version/
          script:
+                  - echo "script"
                   - python pygreetings.py
        - language: java
-         jdk: oraclejdk8
+         jdk: openjdk9
          before_script: 
                   - echo "test before script hello"
          script: 
