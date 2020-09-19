@@ -1,30 +1,29 @@
 language: python
 matrix:
     include:
-            - language: python
+       - language: python
                   - "2.7"
                   - "3.4"
                   - "3.5"
-                  - "3.6"      # current default Python on Travis CI
+                  - "3.6"      
                   - "3.7"
                   - "3.8"
-                  - "3.8-dev"  # 3.8 development branch
-                  - "nightly"  # nightly build
-              # command to install dependencies
-              os: 
+                  - "3.8-dev"
+                  - "nightly"
+         os: 
                   - osx
                   - linux
-              install:
-                  - pip install -r Python_Version/requirements.txt
+         install:
+                  - pip install -r  Python_Version/requirements.txt
               # command to run tests
-              before_script:
+         before_script:
                   - cd Python_Version/
-              script:
+         script:
                   - python pygreetings.py
-            - language: java
-              jdk: oraclejdk8
-              before_script: 
+       - language: java
+         jdk: oraclejdk8
+         before_script: 
                   - echo "test before script hello"
-              script: 
+         script: 
                   - echo "hello"
 
