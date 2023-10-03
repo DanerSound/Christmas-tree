@@ -2,12 +2,10 @@
   
 # Christmas-tree : Simple Tree Generator
 
-In this repo i'll save may daily training from [kattis kattis](https://open.kattis.com/)
-
 [![personal-label](https://img.shields.io/static/v1?label=DanerSound&message=Work_in_progress&color=red&logo=github)](https://github.com/DanerSound)
 
 The purpose of this repository is to create a simple tree using an asterisk (*) symbol and a text message in as many programming languages as possible.
-
+<div align="left">
 ## Introduction
 
 During the Christmas season, I started this project with the aim of spreading holiday cheer. The text message used in the trees is "Buon Natale," which means "Merry Christmas" in Italian.
@@ -27,7 +25,7 @@ Feel free to contribute to this project by adding a new programming language or 
 3. Write a program in that language to generate the tree.
 4. Include a brief README or comments in your code explaining how it works.
 5. Submit a pull request.
-
+</div>
 Let's spread holiday joy and creativity through code! Buon Natale!
 
 | programming language | direct link |
