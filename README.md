@@ -1,55 +1,42 @@
-# Christmas-tree
-
-The purpose of this repo is to make in every possible programming language a simple tree using an " * " simbol and a simple text.
-
-Just because i start the first version of this repo on Christmas seasen i use the text "Buon Natale"
-
-Some snippets of code you can find them in this repo [mips from scratch](https://github.com/DanerSound/MIPS-from-scratch).
-
-# Assembly Mips version:
-
-![](/scr/tree_Assembly_version.png) 
-
-# General Description:
-
-The purpose of this program is to print a tree using the simbol " * " and also a generic greeting for Christmas.
-Here you will find the description for the main procedure.
-All the code was divided into small procedures dedicated for one specific task.
-
-  # Data Segment:
-  - asterisco: is a string with the null terminator that rapresent "*".
-  - newLine: is a string with the null terminator that rapresent "\n" - goto a new line. 
-  - msg: is a string with the null terminator that rapresent a greeting for Christmas.
-  - simbolsNum: is an array of words that contains the number of occurrences of the asterisks (asterisco) 
-    to be printed in the tree.
+<div align="center">
   
-  # Text Segment:
-  The tree is printed on the loop **treePrinter** that takes an element from the array simbolsNum.
-  
-  That is ordered by default and for each number print the asteriks.
-  
-  At the end of the loop, the control goes to the label **text** that print the messagge.
-  
-  The programma finish jumping to the syscall that force the end of the program.
- 
- # Python Version:
- 
- ![](/scr/tree_python_version.jpg)
- 
- # General Description:
- 
- The purpose of this program is to print a tree using the simbol " * " and also a generic greeting for Christmas.
- Here you will find the description for the main procedure.
- 
- To be able to print _tree_ and _text_ **aligned** we need to print 5 empty spaces before the first asterisco.
- Just because the number of asterisk is increasing in the array **"simbols_occurences"** we need to manage to print 
- some proper spaces.
- The for_cicle of line 26-27 print all the simbols in the right positions. Befor start a new print cycle, we print a 
- newLine. when print is done, the greeting message can be printed.
- 
- 
+# Christmas-tree : Simple Tree Generator
+
+In this repo i'll save may daily training from [kattis kattis](https://open.kattis.com/)
+
+[![personal-label](https://img.shields.io/static/v1?label=DanerSound&message=Work_in_progress&color=red&logo=github)](https://github.com/DanerSound)
+
+The purpose of this repository is to create a simple tree using an asterisk (*) symbol and a text message in as many programming languages as possible.
+
+## Introduction
+
+During the Christmas season, I started this project with the aim of spreading holiday cheer. The text message used in the trees is "Buon Natale," which means "Merry Christmas" in Italian.
+
+## Repository Structure
+
+The repository is organized into folders, each representing a programming language. Inside each folder, you will find a simple program or script that generates a tree pattern using asterisks and displays the message "Buon Natale"
+
+## Contribution
+
+Feel free to contribute to this project by adding a new programming language or improving existing implementations. Make sure to follow the directory structure and include a brief explanation of your code.
+
+### How to Contribute
+
+1. Fork this repository.
+2. Create a folder for the programming language you want to add.
+3. Write a program in that language to generate the tree.
+4. Include a brief README or comments in your code explaining how it works.
+5. Submit a pull request.
+
+Let's spread holiday joy and creativity through code! Buon Natale!
+
+| programming language | direct link |
+| ----------- | ----------- | 
+| Assembly MIPS | [link]() | 
+| Python |        | 
+| TMP | [link]() | 
+
+
   ![Work_in_progress](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png)
-  
-  
-  ---
-   **Work always in progress** because i'll keep updating this repo!
+
+</div>
